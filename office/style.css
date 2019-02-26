@@ -1,6 +1,16 @@
 body
 {
-	background-color: #d5d8c0;
+	background-color: #e6ffff;
+}
+.btn{
+   border-radius:20px;
+   border-color:white;
+}
+#innerbox
+{
+height:100%;
+width:100%;
+backgrond-color:rgba(0,0,0,0.6);
 }
 .centered {
   position: absolute;
@@ -39,9 +49,13 @@ body
 	height: 200px;
 	padding:0px;
 }
-#row1 
+#logo
 {
-	margin-top: 150px;
+	margin-top: 100px;
+}
+#row1
+{
+margin-top:80px;
 }
 #row2
 {
