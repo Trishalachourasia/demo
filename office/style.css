@@ -6,18 +6,20 @@ body
    border-radius:20px;
    border-color:white;
 }
-#innerbox
+#in p
 {
-height:100%;
-width:100%;
-backgrond-color:rgba(0,0,0,0.6);
+font-size:20px;
+font-family:Tahoma;
+padding-top:50px;
 }
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 0px;
+  padding: 0px; 
+  height:100%;
+  width:90%;
 }
  .col-md-12 {
   position: relative;
@@ -45,7 +47,7 @@ backgrond-color:rgba(0,0,0,0.6);
 }
 .col-md-12
 {
-	background-color: red;
+	
 	height: 200px;
 	padding:0px;
 }
@@ -64,4 +66,6 @@ margin-top:80px;
 img
 {
 	height: 100%;
+
+  
 }
