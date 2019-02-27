@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>select</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script>
+       $(document).ready(function(){
+       $('[data-toggle="tooltip"]').tooltip(); 
+            });
+    </script>
+</head>
+<body>
+
+       
+	<div class="container-fluid">
+
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+			    
+		<ul class="nav navbar-nav navbar-right" style="padding-right:40px;">
+                  <li ><a href="#" data-toggle="tooltip" data-placement="bottom"  title="Home"><button type="button" class="btn"><span class="glyphicon glyphicon-home"></span></button></a></li>
+		  <li><a href="#" data-toggle="tooltip" data-placement="bottom"  title="Back"><button type="button" class="btn"><span class="glyphicon glyphicon-arrow-left"></span></button></a></li>
+		  <li><a href="#" data-toggle="tooltip" data-placement="bottom"  title="logout"><button type="button" class="btn"><span class="glyphicon glyphicon-log-in"></span></button></a></li>
+        	</ul>
+	   </div>
+       </nav>
+           <div class="row  animated fadeInDown" id="logo">
+               <img src="logo.png" alt="cognizant" style="height:80px;width:320px;margin-left:50px;margin-top:30px;">
+                   
+           </div>
+           <div class="row" id="choice">
+
+             <div class="col-md-2">
+               <div class="col-md-12" onclick="location.href='https://www.google.com';">
+                  <div class="heading">
+                     <h3>PLAN & SOURCE</h3>
+                  </div>
+                  <div class="select">
+                    <i class="fa fa-handshake-o"></i>
+                    <p>Demand to Source</p>
+                  </div>
+               </div>
+             </div>
+
+
+             <div class="col-md-8">
+               <div class="col-md-12" onclick="location.href='https://www.google.com';">
+                   <div class="heading">
+                     <h3>Receiving  to Shipping</h3>
+                  </div>
+                  <div class="make">
+                  <div class="row">
+                     <div class="col-md-1"></div>
+                      <div class="col-md-2"><div class="make_select" onclick="location.href='https://www.google.com';">
+                    <p>Receiving  to Shipping</p>
+                  </div></div>
+                     <div class="col-md-2"><div class="make_select" onclick="location.href='https://www.google.com';">
+                    <p>Experiment  to Change Introduction</p>
+                  </div></div>
+                     <div class="col-md-2"><div class="make_select" onclick="location.href='https://www.google.com';">
+                    <p>Schedule to Produce</p>
+                  </div></div>
+                     <div class="col-md-2"><div class="make_select" onclick="location.href='https://www.google.com';">
+                    <p>Plant Maintenance</p>
+                  </div></div>
+                     <div class="col-md-2"><div class="make_select" onclick="location.href='https://www.google.com';">
+                    <p>EHS & Utility</p>
+                  </div></div>
+                     
+                     <div class="col-md-1"></div>
+                                        
+                     </div>
+                  </div>
+               </div>           
+             </div>
+
+             <div class="col-md-2">
+               <div class="col-md-12">
+                 <div class="heading">
+                     <h3>DELIVER & SERVICE</h3>
+                 </div>
+                 <div class="select">
+                     <p>Customer Service</p>
+                  </div>
+               </div>
+             </div>
+           </div>
+        </div>  
